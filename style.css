@@ -504,6 +504,9 @@ body {
     justify-content: center;
     font-size: 4rem;
     color: white;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .project-content {
@@ -564,10 +567,8 @@ body {
 
 /* Contact */
 .contact-content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 3rem;
-    align-items: start;
+    max-width: 600px;
+    margin: 0 auto;
 }
 
 .contact-info h3 {
@@ -575,12 +576,14 @@ body {
     font-weight: 700;
     color: var(--text-primary);
     margin-bottom: 1rem;
+    text-align: center;
 }
 
 .contact-info p {
     color: var(--text-secondary);
     margin-bottom: 2rem;
     font-size: 1.1rem;
+    text-align: center;
 }
 
 .contact-methods {
@@ -592,6 +595,7 @@ body {
 .contact-method {
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 1rem;
     padding: 1rem;
     background-color: var(--bg-color);

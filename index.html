@@ -13,13 +13,12 @@
 <body>
     <nav class="navbar">
         <div class="nav-container">
-            <div class="nav-logo">장성훈</div>
+            <div class="nav-logo">Sung-Hoon Jang</div>
             <div class="nav-menu">
                 <a href="#home" class="nav-link">홈</a>
                 <a href="#about" class="nav-link">소개</a>
-                <a href="#experience" class="nav-link">경력</a>
+                <a href="#experience" class="nav-link">연구경험</a>
                 <a href="#education" class="nav-link">학력</a>
-                <a href="#skills" class="nav-link">기술</a>
                 <a href="#projects" class="nav-link">프로젝트</a>
                 <a href="#contact" class="nav-link">연락처</a>
                 <button class="theme-toggle" id="theme-toggle">
@@ -32,14 +31,14 @@
     <main>
         <section id="home" class="hero">
             <div class="hero-content">
-                <h1 class="hero-title">장성훈</h1>
-                <p class="hero-subtitle">컴퓨터공학 대학원생</p>
+                <h1 class="hero-title">Sung-Hoon Jang</h1>
+                <p class="hero-subtitle">Korea National University of Transportation</p>
                 <p class="hero-description">
-                    열정적이고 창의적인 개발자로서 새로운 기술을 탐구하고 혁신적인 솔루션을 만들어갑니다.
+                    B.S. in Computer Engineering
                 </p>
                 <div class="hero-buttons">
-                    <a href="#contact" class="btn btn-primary">연락하기</a>
-                    <a href="#projects" class="btn btn-secondary">프로젝트 보기</a>
+                    <a href="#contact" class="btn btn-primary">Contact</a>
+                    <a href="#projects" class="btn btn-secondary">Project</a>
                 </div>
             </div>
         </section>
@@ -50,22 +49,23 @@
                 <div class="about-content">
                     <div class="about-text">
                         <p>
-                            안녕하세요! 저는 컴퓨터공학을 전공하는 대학원생 장성훈입니다.
+                            안녕하세요! 저는 컴퓨터공학을 전공하는 학부연구생 장성훈입니다.
                             소프트웨어 개발과 인공지능 연구에 대한 깊은 관심을 가지고 있으며,
                             항상 새로운 기술을 배우고 적용하는 것을 즐깁니다.
                         </p>
                         <p>
-                            현재 머신러닝과 딥러닝 분야의 연구를 진행하고 있으며, 특히
+                            현재 컴퓨터공학과 AI Medical Imaging Lab에서 
+                            머신러닝과 딥러닝 분야의 연구를 진행하고 있으며, 특히
                             자연어처리와 컴퓨터 비전 분야에 관심이 많습니다.
                         </p>
                     </div>
                     <div class="about-stats">
                         <div class="stat-item">
-                            <h3>2+</h3>
+                            <h3>3+</h3>
                             <p>연구 경험</p>
                         </div>
                         <div class="stat-item">
-                            <h3>10+</h3>
+                            <h3>3+</h3>
                             <p>완료된 프로젝트</p>
                         </div>
                         <div class="stat-item">
@@ -79,31 +79,44 @@
 
         <section id="experience" class="section">
             <div class="container">
-                <h2 class="section-title">경력</h2>
+                <h2 class="section-title">연구경험</h2>
                 <div class="timeline">
                     <div class="timeline-item">
-                        <div class="timeline-date">2023 - 현재</div>
+                        <div class="timeline-date">Sep. 2025 - Present</div>
                         <div class="timeline-content">
-                            <h3>선임 연구원</h3>
-                            <h4>TechCorp</h4>
-                            <p>React와 TypeScript를 사용한 프론트엔드 개발 담당</p>
+                            <h3>복부 혈관 분할을 위한 Axial Slice 간 순차적 분할 모델</h3>
+                            <h4>Abdominal aorta Segmentaion</h4>
+                            <p>Vision Mamba 기반 Segmentaion 모델 개발</p>
                             <ul>
-                                <li>사용자 인터페이스 개선 및 최적화</li>
-                                <li>새로운 기능 개발 및 유지보수</li>
-                                <li>팀 내 코드 리뷰 및 기술 공유</li>
+                                <li>HU Windowing을 통한 CT 데이터 전처리</li>
+                                <li>Axial 축 시퀀스로 혈관의 연속성 보존</li>
+                                <li>혈관의 직경 변화나 형태 이상을 자동 분석</li>
                             </ul>
                         </div>
                     </div>
                     <div class="timeline-item">
-                        <div class="timeline-date">2022 - 2023</div>
+                        <div class="timeline-date">Jul. 2025 - Aug. 2025</div>
                         <div class="timeline-content">
-                            <h3>주니어 개발자</h3>
-                            <h4>StartupXYZ</h4>
-                            <p>웹 애플리케이션 개발 및 유지보수 담당</p>
+                            <h3>CNN 과 Transformer Attention 결합을 통한 안구 혈관 분할</h3>
+                            <h4>Retinal vessels Segmentaion</h4>
+                            <p>Vision Transformer의 메모리 사용량을 해결하기 위한 방법 조사</p>
                             <ul>
-                                <li>HTML, CSS, JavaScript 기반 프론트엔드 개발</li>
-                                <li>RESTful API 연동 및 데이터 처리</li>
-                                <li>사용자 경험 개선을 위한 기능 구현</li>
+                                <li>CvT 모델의 Convolution projection 활용</li>
+                                <li>CBAM 모듈과 Self-Attention 순차적 적용</li>
+                                <li>OCTA-500 데이터셋을 이용한 망막혈관 자동 분할 모델 학습</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">Feb. 2025 - Apr. 2025</div>
+                        <div class="timeline-content">
+                            <h3>Swin-Transformer 를 이용한 의료영상 데이터셋 학습 실험</h3>
+                            <h4>Medical Image Segmentaion</h4>
+                            <p>SOTA 모델인 Swin-Transformer 와 기존 U-Net Base 모델들 비교실험</p>
+                            <ul>
+                                <li>MONAI API 활용 Pytorch framework 에서 전익학습</li>
+                                <li>학습 중간과정 시각화 및 Attention Score Map 시각화</li>
+                                <li>MICCAI의 의료영상 데이터셋 활용</li>
                             </ul>
                         </div>
                     </div>
@@ -119,60 +132,10 @@
                         <div class="education-icon">
                             <i class="fas fa-graduation-cap"></i>
                         </div>
-                        <h3>컴퓨터공학 석사</h3>
-                        <h4>ABC 대학교</h4>
-                        <p class="education-date">2019 - 2023</p>
-                        <p>기계학습 및 인공지능 전공</p>
-                    </div>
-                    <div class="education-item">
-                        <div class="education-icon">
-                            <i class="fas fa-certificate"></i>
-                        </div>
-                        <h3>웹 개발 수료증</h3>
-                        <h4>CodeCamp</h4>
-                        <p class="education-date">2022</p>
-                        <p>풀스택 웹 개발 과정 수료</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="skills" class="section">
-            <div class="container">
-                <h2 class="section-title">기술 스택</h2>
-                <div class="skills-grid">
-                    <div class="skill-category">
-                        <h3>프론트엔드</h3>
-                        <div class="skills-list">
-                            <span class="skill-tag">HTML5</span>
-                            <span class="skill-tag">CSS3</span>
-                            <span class="skill-tag">JavaScript</span>
-                            <span class="skill-tag">TypeScript</span>
-                            <span class="skill-tag">React</span>
-                            <span class="skill-tag">Vue.js</span>
-                        </div>
-                    </div>
-                    <div class="skill-category">
-                        <h3>백엔드</h3>
-                        <div class="skills-list">
-                            <span class="skill-tag">Node.js</span>
-                            <span class="skill-tag">Express</span>
-                            <span class="skill-tag">Python</span>
-                            <span class="skill-tag">Django</span>
-                            <span class="skill-tag">MongoDB</span>
-                            <span class="skill-tag">MySQL</span>
-                        </div>
-                    </div>
-                    <div class="skill-category">
-                        <h3>도구</h3>
-                        <div class="skills-list">
-                            <span class="skill-tag">Git</span>
-                            <span class="skill-tag">GitHub</span>
-                            <span class="skill-tag">VS Code</span>
-                            <span class="skill-tag">Figma</span>
-                            <span class="skill-tag">Docker</span>
-                            <span class="skill-tag">AWS</span>
-                        </div>
+                        <h3>컴퓨터공학 학사</h3>
+                        <h4>국립한국교통대학교</h4>
+                        <p class="education-date">2020 - Present</p>
+                        <p>컴퓨터공학 전공</p>
                     </div>
                 </div>
             </div>
@@ -183,38 +146,27 @@
                 <h2 class="section-title">프로젝트</h2>
                 <div class="projects-grid">
                     <div class="project-card">
-                        <div class="project-image">
-                            <i class="fas fa-shopping-cart"></i>
+                        <div class="project-image" style="background-image: url('img/deepfake.png');">
                         </div>
                         <div class="project-content">
-                            <h3>이커머스 플랫폼</h3>
-                            <p>React와 Node.js를 사용한 온라인 쇼핑몰 개발</p>
+                            <h3>DeepFake Detection</h3>
+                            <p>딥페이크 영상을 탐지하기 위한 모델 및 웹 개발</p>
                             <div class="project-tags">
-                                <span class="tag">React</span>
-                                <span class="tag">Node.js</span>
-                                <span class="tag">MongoDB</span>
-                            </div>
-                            <div class="project-links">
-                                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
-                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <span class="tag">Pytorch</span>
+                                <span class="tag">Flask</span>
                             </div>
                         </div>
                     </div>
                     <div class="project-card">
-                        <div class="project-image">
-                            <i class="fas fa-tasks"></i>
+                        <div class="project-image" style="background-image: url('img/spam.png');">
                         </div>
                         <div class="project-content">
-                            <h3>프로젝트 관리 도구</h3>
-                            <p>Vue.js로 구현한 팀 협업 관리 도구</p>
+                            <h3>Spam Detection</h3>
+                            <p>유튜브 광고성 댓글 구별 모델 개발</p>
                             <div class="project-tags">
-                                <span class="tag">Vue.js</span>
-                                <span class="tag">Firebase</span>
-                                <span class="tag">CSS3</span>
-                            </div>
-                            <div class="project-links">
-                                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
-                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <span class="tag">Tensorflow</span>
+                                <span class="tag">Pytorch</span>
+                                <span class="tag">HuggingFace</span>
                             </div>
                         </div>
                     </div>
@@ -223,16 +175,12 @@
                             <i class="fas fa-chart-line"></i>
                         </div>
                         <div class="project-content">
-                            <h3>데이터 시각화 대시보드</h3>
-                            <p>Python과 Django를 사용한 데이터 분석 플랫폼</p>
+                            <h3>영상처리 기술을 활용한 이상치 탐지</h3>
+                            <p>Pyside6와 OpenCV를 활용한 영상처리 및 분석 애플리케이션</p>
                             <div class="project-tags">
                                 <span class="tag">Python</span>
-                                <span class="tag">Django</span>
-                                <span class="tag">Chart.js</span>
-                            </div>
-                            <div class="project-links">
-                                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
-                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <span class="tag">OpenCV</span>
+                                <span class="tag">Pytorch</span>
                             </div>
                         </div>
                     </div>
@@ -245,36 +193,20 @@
                 <h2 class="section-title">연락처</h2>
                 <div class="contact-content">
                     <div class="contact-info">
-                        <h3>함께 연락해요!</h3>
-                        <p>새로운 기회나 협업에 대해 언제든 연락주세요.</p>
                         <div class="contact-methods">
                             <div class="contact-method">
                                 <i class="fas fa-envelope"></i>
-                                <span>sunghoon@email.com</span>
+                                <span>kssjshyjyh@gmail.com</span>
                             </div>
                             <div class="contact-method">
                                 <i class="fas fa-phone"></i>
-                                <span>010-1234-5678</span>
+                                <span>010-4817-3203</span>
                             </div>
                             <div class="contact-method">
                                 <i class="fas fa-map-marker-alt"></i>
                                 <span>서울, 대한민국</span>
                             </div>
                         </div>
-                    </div>
-                    <div class="social-links">
-                        <a href="#" class="social-link">
-                            <i class="fab fa-github"></i>
-                            <span>GitHub</span>
-                        </a>
-                        <a href="#" class="social-link">
-                            <i class="fab fa-linkedin"></i>
-                            <span>LinkedIn</span>
-                        </a>
-                        <a href="#" class="social-link">
-                            <i class="fas fa-blog"></i>
-                            <span>Blog</span>
-                        </a>
                     </div>
                 </div>
             </div>
@@ -283,7 +215,7 @@
 
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2024 장성훈. All rights reserved.</p>
+            <p>&copy; 2025 장성훈. All rights reserved.</p>
         </div>
     </footer>
 
